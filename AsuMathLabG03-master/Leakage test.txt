@@ -1,0 +1,24 @@
+==5680== 
+B =
+ 1.200000 	 2.300000 	 3.200000 	
+ 3860.851700 	 2.300000 	 -7.800000 	
+ 1.300000 	 2.400000 	 -3.200000 	
+ 4.600000 	 1.300000 	 1.200000 	
+
+
+==5680== 
+==5680== HEAP SUMMARY:
+==5680==     in use at exit: 72,704 bytes in 1 blocks
+==5680==   total heap usage: 1,778 allocs, 1,777 frees, 106,997 bytes allocated
+==5680== 
+==5680== LEAK SUMMARY:
+==5680==    definitely lost: 0 bytes in 0 blocks
+==5680==    indirectly lost: 0 bytes in 0 blocks
+==5680==      possibly lost: 0 bytes in 0 blocks
+==5680==    still reachable: 72,704 bytes in 1 blocks
+==5680==         suppressed: 0 bytes in 0 blocks
+==5680== Rerun with --leak-check=full to see details of leaked memory
+==5680== 
+==5680== For counts of detected and suppressed errors, rerun with: -v
+==5680== ERROR SUMMARY: 1605525 errors from 238 contexts (suppressed: 0 from 0)
+
