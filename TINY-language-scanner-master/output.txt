@@ -1,0 +1,36 @@
+Comment:{Sample program in TINY language computes factorial}
+Reserved Word: read
+Identifier: x
+Special symbol for Semicolon: ; 
+Comment:{input an integer }
+Reserved Word: if
+Number: 0
+Special symbol for less than: <
+Identifier: x
+Reserved Word: then
+Comment:{ don’t compute if x <= 0 }
+Identifier: fact
+Special symbol for Assignment: := 
+Number: 500
+Special symbol for Semicolon: ; 
+Reserved Word: repeat
+Identifier: fact
+Special symbol for Assignment: := 
+Identifier: fact
+Special symbol for multiply: *
+Identifier: x
+Special symbol for Semicolon: ; 
+Identifier: x
+Special symbol for Assignment: := 
+Identifier: x
+Special symbol for subtracting: -
+Number: 1
+Reserved Word: until
+Identifier: x
+Special symbol for Equal: = 
+Number: 0
+Special symbol for Semicolon: ; 
+Reserved Word: write
+Identifier: fact
+Comment:{ output factorial of x }
+Reserved Word: end
